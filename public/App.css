@@ -1,0 +1,291 @@
+/* Global Styles
+body {
+  background-color: #FFECD1;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container Styling */
+.container {
+  background-color: #FFECD1;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading Styling */
+.heading {
+  color: #2E2E2E;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+/* Link Row Styling */
+.link-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+/* Button Styling */
+.call-btn {
+  color: #FFF8F0;
+  background-color: #FF914D;
+  
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background-color 0.3s;
+}
+
+/* Hover Effect */
+.call-btn:hover {
+  background-color: #E86A33;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 480px) {
+  .link-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .call-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+.text-para{
+  background-color: white;
+  margin-top: 15px;
+}
+.sub{
+  margin-top:-5px;
+  font-weight:200
+}
+hr {
+  border: none;
+  border-top: 2px solid #101820; /* or any color that fits your theme */
+  
+  width: 80%; /* optional: control width */
+}
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.profile-pic {
+  width: 150px;         /* Consistent square size */
+  height: 150px;
+  object-fit: cover;    /* Crops image neatly to fit the box */
+  border-radius: 50%;   /* Makes it circular */
+  border: 2px solid #101820;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional depth */
+  margin-bottom: 16px;
+}
+.pindi-items-pic{
+  width:55%;
+  height: 45%;
+}
+.table-d{
+  font-weight: 300;
+}
+.icon-btn {
+  margin: 10px;
+  font-size: 24px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.icon-btn:hover {
+  color: #25D366; /* WhatsApp green or any hover effect */
+}
+
+.link-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.phn {
+  transform: scaleX(-1); /* Flips the icon horizontally */
+}
+.other-services {
+  list-style-type: none;
+} */
+/* Global Styles */
+body {
+  background-color: #FFECD1;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container Styling */
+.container {
+  background-color: #FFECD1;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Heading Styling */
+.heading {
+  color: #2E2E2E;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Subheading Styling */
+.sub {
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* Separator Line */
+hr {
+  border: none;
+  border-top: 2px solid #101820;
+  width: 80%;
+  margin-top: -2px ;
+}
+
+/* Contact Icon Row */
+.link-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icon-btn {
+  font-size: 24px;
+  color: #333;
+  background-color: #FFF;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #FF914D;
+  color: #FFF;
+}
+
+/* Flip Phone Icon Horizontally */
+.phn {
+  transform: scaleX(-1);
+}
+
+/* Description Box */
+.text-para {
+  background-color: white;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Table Styling */
+.table-d {
+  font-weight: 300;
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-d th,
+.table-d td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.pindi-items-pic {
+  width: 75%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Other Services Section */
+.other-services {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.other-services li {
+  /* background-color: white; */
+  /* border-radius: 12px; */
+   padding: 10px; 
+  text-align: center;
+  max-width: 140px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); */
+}
+
+.other-services img {
+  width: 100%;
+  border-radius: 50%;
+  height: 50%;
+  border-radius: 8px;
+}
+
+.other-services h2 {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+/* Profile Picture Styling */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border: 2px solid #101820; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 16px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 480px) {
+  .link-row {
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .icon-btn {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .other-services li {
+    max-width: 120px;
+  }
+
+  .heading {
+    font-size: 1.8em;
+  }
+
+  .table-d th, .table-d td {
+    font-size: 14px;
+  }
+}
